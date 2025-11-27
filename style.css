@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url('bg.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#px {
+    width: 640px;
+    height: 192px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    position: absolute;
+    left: 800px;
+    top: 20px;
+}
