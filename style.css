@@ -11,11 +11,10 @@ body {
 }
 
 #px {
-    width: 640px;
-    height: 192px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
-    position: absolute;
-    left: 800px;
-    top: 20px;
 }
