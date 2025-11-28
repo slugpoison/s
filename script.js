@@ -4,9 +4,9 @@ const c = document.getElementById("px");
 const ctx = c.getContext("2d");
 
 const texts = [
-    {text: "email", x: 100, y: 100, url: "mailto:example@example.com"},
-    {text: "soundcloud", x: 100, y: 200, url: "https://soundcloud.com/username"},
-    {text: "telegram", x: 100, y: 300, url: "https://t.me/username"}
+    {text: "email", x: 100, y: 100, url: "mailto:slugposion@proton.me"},
+    {text: "soundcloud", x: 100, y: 200, url: "https://soundcloud.com/slugpoison"},
+    {text: "telegram", x: 100, y: 300, url: "https://t.me/daqwez"}
 ];
 
 function resizeCanvas() {
@@ -66,3 +66,4 @@ c.addEventListener("mouseleave", () => {
     drawText();
     c.style.cursor = "default";
 });
+
