@@ -3,13 +3,6 @@ html, body {
     height: 100%;
 }
 
-body {
-    background-image: url('bg.png');
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 #px {
     display: block;
     position: absolute;
@@ -18,3 +11,4 @@ body {
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 }
+
